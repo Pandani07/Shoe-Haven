@@ -1,0 +1,98 @@
+/* Import fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Inter&family=Source+Sans+Pro&display=swap');
+
+:root{
+      --primary-colour: #45ccb8;
+      --light-grey:#2b3032a1;
+      --border:#2b303218;
+      --text-color:#ff686b;
+      --sourcesans:'Source Sans Pro', sans-serif;
+      --bals: 'Balsamiq Sans', cursive;
+      --inter: 'Inter', sans-serif;
+}
+
+.primary-color{
+      color: var(--primary-colour);
+}
+
+.bg-primary-color{
+      background-color: var(--primary-colour);
+}
+
+.text-color{
+      color: var(--text-color);
+
+}
+
+.font-inter{
+      font-family: var(--inter);
+}
+
+.lightblue{
+      color: lightblue;
+}
+
+header{
+      background-color: var(--primary-colour);
+      font-family: var(--sourcesans);
+}
+
+header.site-title{
+      font-family: var(--inter);
+}
+
+.container.dropdown-toggle, .container.dropdown-item{
+      font-size: 0.7em;
+}
+
+.header-links a{
+      font-size: 0.9em;
+      text-decoration: none;
+      color: white;
+}
+
+/*Nav menu*/
+
+.navbar-nav{
+      padding: 0.8em 0em;
+}
+.navbar-nav .nav-link{
+      font-size: 0.9em;
+      color: black;
+}
+
+.navbar-nav .nav-item .nav-link{
+      padding: 0em 1.3em;
+}
+
+.nav-item{
+
+      color: blue;
+}
+
+
+
+.navbar-nav .basket-icon{
+      margin-right: 6.5rem !important;
+}
+
+
+h2{
+     font-weight: bold;
+}
+
+/* Image resize*/
+img {
+
+      width:  750px;
+      height: 750px;
+      object-fit: cover;
+  }
+
+  .carousel-cell{
+        width: 66%;
+        margin-right: 10px;
+  }
+  .carousel-cell:before {
+      display: block;
+    }
