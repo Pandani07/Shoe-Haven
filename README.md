@@ -1,5 +1,4 @@
 # Shoe-Haven
 
-A basketball sneakers website with a chatbot for assistance
+A basketball sneakers website with a chatbot for assistance. Watson assistant was used for the bot
 
-https://pandani07.github.io/Shoe-Haven/
